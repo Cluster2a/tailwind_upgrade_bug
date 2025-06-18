@@ -1,0 +1,13 @@
+{
+	"files.exclude": {
+		"**/.pnpm-store": true,
+		"**/.svelte-kit": true,
+		"**/build": true,
+		"**/node_module": true
+	},
+	"search.exclude": {
+		"**/.pnpm-store": true,
+		"**/.svelte-kit": true,
+		"**/build": true
+	}
+}

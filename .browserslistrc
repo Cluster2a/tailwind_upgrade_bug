@@ -1,0 +1,9 @@
+>0.3%
+edge >= 79
+firefox >= 62
+chrome >= 64
+safari >= 11
+opera >= 51
+
+[ssr]
+node 19

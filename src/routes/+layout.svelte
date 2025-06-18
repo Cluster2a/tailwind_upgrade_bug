@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
-    import { loadLocale } from '$lib/utils/loadLocale';
-    import LL from '$i18n/i18n-svelte';
+	import { loadLocale } from '$lib/utils/loadLocale';
+	import LL from '$i18n/i18n-svelte';
 	import '$src/app.css';
 	import '@fontsource/merriweather-sans/600.css';
 	import '@fontsource/overpass-mono/400.css';
@@ -13,11 +13,10 @@
 	import { onMount } from 'svelte';
 
 	interface Props {
-		data: LayoutData;
 		children?: import('svelte').Snippet;
 	}
 
-	let { data, children }: Props = $props();
+	let { children }: Props = $props();
 
 	let localesLoaded = $state(false);
 

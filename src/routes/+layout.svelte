@@ -34,9 +34,24 @@
 	<main>
 		<div class="relative flex min-h-screen min-w-0 flex-1 flex-col">
 			<svelte:boundary>{@render children?.()}</svelte:boundary>
-			<div class="absolute bottom-0 right-0 p-1.5 text-xxs text-gray-400">
+			<div class="text-xxs absolute right-0 bottom-0 p-1.5 text-gray-400">
 				&copy;<span class="hidden print:inline">&nbsp;freispace GmbH</span>
 			</div>
 		</div>
+
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			fill="none"
+			viewBox="0 0 24 24"
+			stroke-width="1.5"
+			stroke="currentColor"
+			class="h-5 w-5 flex-shrink-0"
+		>
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75"
+			/>
+		</svg>
 	</main>
 {/if}
